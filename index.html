@@ -941,6 +941,24 @@
             });
             </script>
 
+            <script>
+                function sendWhatsAppMessage() {
+    var waUrl = 'https://api.whatsapp.com/send?phone=+919663098906&text=Hi%21+I%27m+Interested+In+Sobha+Neopolis+Bangalore+by+Sobha+Group+At+Panathur+Road%2C+Bangalore.+Please+Share+Details.';
+    
+    // Check if the device is a mobile device
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+    if (isMobile) {
+        // For mobile devices, use 'window.location' instead of 'window.open'
+        window.location = waUrl;
+    } else {
+        // For desktop, continue using 'window.open'
+        window.open(waUrl, '_blank');
+    }
+}
+
+            </script>
+
 <!-- <script>
 $(document).ready(function() {
     $("[data-fancybox='gallery']").fancybox({
