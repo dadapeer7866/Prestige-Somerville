@@ -673,10 +673,9 @@
            <!-- Organize Site Visit -->
            <li class="nav-item enqModal" data-form="lg" data-title="Organize Site Visit" onclick="pricePopProjectname('Request Site Visit');" data-btn="Request Site Visit" data-enquiry="Organize Site Visit" data-toggle="modal" data-target="#enqModal">Organize Site Visit</li>
            <!-- WhatsApp Contact Link -->
-           <li class="nav-item" onclick="openWhatsApp();">
+           <a href="https://api.whatsapp.com/send?phone=+919663098906&text=Hi%21+I%27m+Interested+In+Sobha+Neopolis+Bangalore+by+Sobha+Group+At+Panathur+Road%2C+Bangalore.+Please+Share+Details." class="whatsapp-link" target="_blank">
             <span class="fab fa-whatsapp action-icon"></span> +91 9663098906
-        </li>
-             
+        </a>        
        </ul>
 
        <a href="tel:+919663098906" class="btn btn-sm btn-info micro-form-btn-sm effetGradient effectScale enqModal mt-1" data-form="sm" data-title="Request For Immediate Call Back" data-btn="Request Call Now" data-enquiry="Immediate Call Back" data-toggle="modal" data-target="#enqModal" style="font-weight:bold">Call : +91 9663098906</a>
@@ -940,25 +939,6 @@
                     });
                 });
             });
-            </script>
-
-            <script>
-                function openWhatsApp() {
-    // WhatsApp URL
-    var waUrl = 'https://api.whatsapp.com/send?phone=+919663098906&text=Hi%21+I%27m+Interested+In+Sobha+Neopolis+Bangalore+by+Sobha+Group+At+Panathur+Road%2C+Bangalore.+Please+Share+Details.';
-
-    // Detecting mobile browser
-    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
-    if (isMobile) {
-        // For mobile devices, directly changing the location might work better
-        document.location.href = waUrl;
-    } else {
-        // For desktop browsers, open a new window/tab
-        window.open(waUrl, '_blank');
-    }
-}
-
             </script>
 
 <!-- <script>
